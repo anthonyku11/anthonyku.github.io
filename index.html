@@ -2,26 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Forethought Test Domain</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forethought Test Page</title>
     <style>
-        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f9; margin: 0; }
-        .container { text-align: center; border: 2px dashed #ccc; padding: 50px; border-radius: 10px; background: white; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            background-color: #f4f4f9; 
+            margin: 0; 
+        }
+        .container { 
+            text-align: center; 
+            border: 2px dashed #3f51b5; 
+            padding: 40px; 
+            border-radius: 12px; 
+            background: white; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; }
+        p { color: #666; }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Chatbot Test Page</h1>
-        <p>Click the chatbot widget in the lower right corner to open.</p>
+        <h1>Forethought Test Environment</h1>
+        <p>The chatbot should appear as a bubble in the bottom-right corner.</p>
     </div>
 
     <script
         src="https://solve-widget.forethought.ai/embed.js"
         id="forethought-widget-embed-script"
         data-api-key="3641d3ad-ede2-4388-b475-62b92d5d6272"
-        data-ft-Full-Name="Test User"
-        data-ft-Email="test@example.com"
-        data-ft-workflow-tag="support"
     ></script>
 
 </body>
